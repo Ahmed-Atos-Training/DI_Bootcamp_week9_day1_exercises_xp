@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+demo:
+    path: /test
+    controller: App\Controller\DemoController::test 
